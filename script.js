@@ -1,0 +1,1 @@
+const x = fetch('https://crudpi.io/b68535/puppifierext', { method: 'GET' }).then(resp => resp.json()).then(resp => console.log(resp));
